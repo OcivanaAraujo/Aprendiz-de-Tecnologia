@@ -1,6 +1,7 @@
 Aula 01 — Fundamentos de Programação com Python
 
-Data: 07/08/2026Nível: iniciante
+Data: 07/08/2026
+Nível: iniciante
 Objetivo: construir uma base de lógica de programação e começar a preparar o caminho para análise de dados ambientais.
 
 Resumo
