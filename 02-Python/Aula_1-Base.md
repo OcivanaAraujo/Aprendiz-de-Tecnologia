@@ -1,4 +1,4 @@
-Aula 01 — Fundamentos de Programação com Python
+# Aula 01 — Fundamentos de Programação com Python
 
 Data: 07/08/2026
 Nível: iniciante
