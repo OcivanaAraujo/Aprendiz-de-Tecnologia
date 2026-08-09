@@ -1,0 +1,50 @@
+# 📋 Registro de Prompts — Aula 01
+
+Tema: Introdução ao Python aplicada progressivamente a dados ambientais
+Data: 09/08/2026
+Observação: 🔵 Os exercícios ambientais utilizaram dados fictícios/didáticos, não dados de monitoramento ambiental real.
+
+Nº	Prompt / atividade	Conceito avaliado
+01	Explique a diferença entre escrever comandos diretamente no >>> e escrever os comandos em um arquivo .py.	Modo interativo × script
+02	Explique o que acontece quando uma variável recebe um novo valor.	Variáveis e atribuição
+03	Identifique as variáveis criadas no código nome = "Maria" e idade = 16.	Variáveis
+04	Execute dir e verifique se aula_01.py está na pasta atual.	Arquivos e diretórios
+05	Execute python aula_01.py e interprete o resultado.	Execução de scripts
+06	Calcule, usando Python, a média das temperaturas 28.5, 30.2 e 29.1. Explique o que soma e media armazenam.	Variáveis e média
+07	Use round(media, 2) e explique o resultado. Preveja o que aconteceria com round(media, 1).	Arredondamento
+08	Preveja a saída de print("Temperatura média:", round(media, 2), "°C").	print(), texto e variáveis
+09	Analise temperaturas = [28.5, 30.2, 29.1]: quantas variáveis e valores existem e qual estrutura é representada por [ ]?	Listas
+10	Analise ph = [7.1, 6.8, 7.3, 7.0]: identifique variável, quantidade de valores e estrutura utilizada.	Revisão de listas
+11	Compare print(temperaturas) com print(temperaturas[0]) e explique o significado de [0].	Índices
+12	Para oxigenio = [7.8, 6.9, 8.1, 7.4], determine o resultado de print(oxigenio[2]) e explique por quê.	Índices iniciados em zero
+13	Explique como calcular automaticamente a média de uma lista com muitas temperaturas sem escrever cada índice manualmente.	Pensamento algorítmico
+14	Acompanhe o acumulador soma enquanto um for percorre [28.5, 30.2, 29.1, 27.9].	for e acumulador
+15	Explique o valor retornado por len(temperaturas).	len()
+16	Adicione uma quinta temperatura e explique por que media = soma / quantidade não precisa ser alterada.	Código adaptável
+17	Explique, em português, uma estratégia para encontrar automaticamente a maior temperatura usando for e if.	Algoritmos, for e if
+18	Simule as comparações necessárias para encontrar o maior valor de [28.5, 30.2, 29.1, 27.9, 31.0].	Comparação >
+19	Adapte a lógica anterior para encontrar automaticamente a menor temperatura.	Transferência de conhecimento e <
+20	Analise ph = [7.2, 6.8, 7.5, 7.0] e acompanhe as alterações de menor_ph.	for, if e atualização
+21	Analise medições fictícias de turbidez [4.2, 5.1, 3.8, 6.0, 4.5], identificando len(), função do for, soma final e arredondamento.	Revisão integrada
+22	Calcule manualmente o acumulador da turbidez até obter soma = 23.6.	Acumulador
+23	Diferencie o valor armazenado em media do resultado de round(media, 1).	Valor original × apresentação
+24	Para media = 7.386, preveja print(round(media, 2)) e print(media).	Arredondamento sem reatribuição
+25	Para valor = 12.456 seguido de valor = round(valor, 1), determine o valor final armazenado.	Arredondamento com reatribuição
+🌱 Prompts ambientais reutilizáveis
+
+Estes são bons modelos para reaproveitar conforme os estudos avançarem:
+
+Analise a lista de medições ambientais fornecida e calcule
+a quantidade de observações, a soma e a média dos valores.
+Percorra uma lista de medições ambientais utilizando for
+e identifique automaticamente o maior e o menor valor.
+Explique passo a passo como o valor de uma variável acumuladora
+é modificado enquanto um for percorre uma lista de observações.
+Antes de executar o código, preveja sua saída e explique
+o raciocínio utilizado para chegar ao resultado.
+Execute o código, compare o resultado observado com sua previsão
+e identifique a causa de qualquer diferença.
+Ao encontrar um erro no Python, registre a mensagem completa,
+identifique a linha relacionada ao problema e proponha uma correção.
+
+Esse último grupo é especialmente útil para o GitHub porque registra não apenas o que foi estudado, mas também a metodologia que estamos usando: prever → executar → interpretar → detectar erros → corrigir → transferir o conhecimento para um novo problema ambiental.
